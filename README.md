@@ -16,7 +16,7 @@ Site storage uses S3 buckets , amplify , CloudFront .
 - First thing create a budget control in AWS to make sure we stay in free tier
 - set the daatabse with RDS : 
     events-rsvp-db : mysql:
-
+```
     create events table
     CREATE TABLE events(
         event_id VARCHAR(64) PRIMARY KEY, 
@@ -55,7 +55,7 @@ VALUES
   'AWS PH Office, Bonifacio Global City',
   ''
 );
-
+```
 Create Lambda handler and API gateway
 
 Create Dynamo db take with a PK and SK
